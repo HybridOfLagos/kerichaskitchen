@@ -15,7 +15,7 @@ body{
     color: #3c416f;
     overflow-x: hidden;
     font-family: "Josefin Sans", sans-serif;
-    background: #e4f;
+    background: #e4fef0; /*#e4f;*/
 }
 
 ul {
@@ -106,5 +106,60 @@ input{
 
 .bg-six {
     background-color: #011c57;
+}
+
+/*---- header section ----*/
+
+.header-wrapper {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-wrapper .logo {
+    width: 170px;
+}
+
+.header-wrapper .logo a {
+    display: inline-block;
+}
+
+.header-wrapper .logo a img {
+    max-width: 100%;
+}
+
+.header-wrapper .menu li {
+    padding: 5px 12px;
+    position: relative;
+}
+
+.header-wrapper .menu li a {
+    color: #e9eeff;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.header-wrapper .menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header-wrapper .menu li {
+    padding: 5px 3px;
+    position: relative;
+    margin-right: 20px;
+}
+
+.header-wrapper .menu > li > a::before {
+    width: calc(100% - 10px);
+    height: 2px;
+    background: #fff;
+    top: calc(100% + 20px);
+    position: absolute;
+    content: "";
+    transform: scaleX(0);
+    transition: all ease 0.3s;
+    transform-origin: left;
 }
 
