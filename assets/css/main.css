@@ -1,0 +1,110 @@
+/* ----common css -----*/
+
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+html {
+    font-size: 16px;
+    scroll-behavior: smooth; 
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    line-height: 28px;
+    color: #3c416f;
+    overflow-x: hidden;
+    font-family: "Josefin Sans", sans-serif;
+    background: #e4f;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+    padding: 5px 0;
+}
+
+input{
+    width: 100%;
+    background-color: #ffffff;
+    border: 1px solid #2d4186;
+    border-radius: 4px;
+}
+
+.custom-button {
+    background: #71b85f;
+    box-shadow: 0.872px 9.962px 20px 0px rgba 0, 0, 0, 0.1;
+    padding: 12px 30px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 50px;
+    display: inline-block;
+    margin-bottom: 0px;
+    border: 0px;
+    font-size: 16px;
+    cursor: pointer;
+    width: auto;
+    height: auto;
+    transition: all ease 0.3s;
+}
+.custom-button:hover {
+    color: #71b85f !important;
+    background: #fff;
+    box-shadow: 1px 10px 20px 0px rgba(0, 0, 0, 0.2);
+}
+.header-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-header {
+    text-align: cenetr;
+    margin-bottom: 57px;
+}
+
+.white-color .sub-title {
+    color: #fff;
+}
+
+.white-color .title {
+    color: #fff;
+}
+
+.white-color .text {
+    color: #fff;
+}
+
+.sub-title {
+    color: #91999f;
+    display: block;
+    font-size: 28px;
+    line-height: 38px;
+    margin-bottom: 28px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.title{
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 700;
+    margin-bottom: 11px;
+    display: block;
+}
+
+.title.extra-padding {
+    margin-bottom: 21px;
+}
+
+.section-header .text {
+    display: inline-block;
+}
+
+.bg-six {
+    background-color: #011c57;
+}
+
